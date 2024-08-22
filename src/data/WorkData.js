@@ -3,61 +3,70 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Frontend Developer",
+        description:"Build a design Website DLOR24 as Front-End Developer to help assistant candidates in the recruitment and Performing website maintenance during the recruitment process.",
+        tags:["HTML", "CSS","Tailwindcss", "Javascript", "Laravel", "MySql"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        // demo:"https://agency-website-eta.vercel.app/",
+        // github:"https://github.com/codebucks27/Agency-website"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Software Developer",
+        description:" Responsible for all use and development of software in the Daskom Laboratory and In charge of maintaining and developing the Daskom website.",
+        tags:["C/C++", "React.js","Tailwindcss","Vue.js", "Javascript", "Laravel", "MySql"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
+        // demo:"https://agency-website-eta.vercel.app/",
+        // github:"https://github.com/codebucks27/Agency-website"
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"NDN-RG Research Assistant",
+        description:"Researching microservices architecture implementation for the Open Library website at Telkom University.",
+        tags:["Figma","Next.js", "Tailwindcss", "Laravel", "MySql", "PostreSql", "MongoDB", "Docker", "Kubernetes", "Apache Kafka"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        // demo:"http://react-job-listing-website.codebucks27.vercel.app/",
+        // github:"https://github.com/codebucks27/react-job-listing-website"
+        
     },
-    {
-        id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+    // {
+    //     id:3,
+    //     name:"Dev.to Clone",
+    //     description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
+    //     tags:["react","api","sass"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+    //     // demo:"http://devto-clone-codebucks27.vercel.app/",
+    //     // github:"https://github.com/codebucks27/devto-clone"
+    // },
+    // {
+    //     id:4,
+    //     name:"Sidebar Menu",
+    //     description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
+    //     tags:["react","styledComponents","react-router"],
+        
+    //     // demo:"https://react-sidebar.vercel.app/",
+    //     // github:"https://github.com/codebucks27/react-sidebar"
        
-    },{
-        id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+    // },{
+    //     id:5,
+    //     name:"Todo App(React + Redux)",
+    //     description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
+    //     tags:["react","redux","framer-motion"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+    //     // demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
+    //     // github:"https://github.com/codebucks27/React-Redux-Todo-App"
         
-    },
-    {
-        id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+    // },
+    // {
+    //     id:6,
+    //     name:"Responsive Navigation Menu",
+    //     description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
+    //     tags:["react","react-router","css"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+    //     // demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
+    //     // github:"https://github.com/codebucks27/React-responsive-navbar"
         
-    },
+    // },
     
   
 ] 

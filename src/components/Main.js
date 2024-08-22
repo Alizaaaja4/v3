@@ -49,7 +49,7 @@ const WORK = styled(NavLink)`
 color: ${props => props.click ? props.theme.body : props.theme.text};
 
 position: absolute;
-top: 50%;
+top: 35%;
 left: calc(1rem + 2vw);
 transform: translate(-50%, -50%) rotate(-90deg) ;
 text-decoration: none;
@@ -145,7 +145,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+            <Contact target="_blank" href="mailto:alizahra2403@gmail.com">
                 <motion.h2
                 initial={{
                     y:-200,
