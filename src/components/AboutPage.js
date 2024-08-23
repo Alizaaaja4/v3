@@ -39,14 +39,15 @@ const Main =  styled.div`
   color: ${(props) => props.theme.text};
   padding: 2rem;
   width: 50vw;
-  height: 60vh;
+  height: auto;
   z-index: 3;
   line-height: 1.5;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.8rem + 1vw);
  backdrop-filter: blur(4px);
+ margin-top : 2rem;
   
   position: absolute;
   left: calc(5rem + 5vw);
@@ -75,8 +76,7 @@ const AboutPage = () => {
             I am a full stack developer based in Indonesia. I enjoy creating simple yet beautiful websites with exceptional user experiences.
             <br /> <br/>
             I am interested in the entire technology stack, from frontend to backend, and love experimenting with new things and building great projects. I am an independent freelancer and blogger who also enjoys writing blogs and reading books.
-            <br /> <br/>
-            I believe that everything becomes art when you put your awareness and creativity into it. Feel free to connect with me through my social media links.
+            
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
