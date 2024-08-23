@@ -7,7 +7,7 @@ export const Work = [
         description:"Build a design Website DLOR24 as Front-End Developer to help assistant candidates in the recruitment and Performing website maintenance during the recruitment process.",
         tags:["HTML", "CSS","Tailwindcss", "Javascript", "Laravel", "MySql"],
         
-        // demo:"https://agency-website-eta.vercel.app/",
+        demo:"https://www.linkedin.com/in/alizaaaja/details/experience/",
         // github:"https://github.com/codebucks27/Agency-website"
     },
     {
@@ -16,7 +16,7 @@ export const Work = [
         description:" Responsible for all use and development of software in the Daskom Laboratory and In charge of maintaining and developing the Daskom website.",
         tags:["C/C++", "React.js","Tailwindcss","Vue.js", "Javascript", "Laravel", "MySql"],
         
-        // demo:"https://agency-website-eta.vercel.app/",
+        demo:"https://www.linkedin.com/in/alizaaaja/details/experience/",
         // github:"https://github.com/codebucks27/Agency-website"
     },
     {
@@ -25,7 +25,7 @@ export const Work = [
         description:"Researching microservices architecture implementation for the Open Library website at Telkom University.",
         tags:["Figma","Next.js", "Tailwindcss", "Laravel", "MySql", "PostreSql", "MongoDB", "Docker", "Kubernetes", "Apache Kafka"],
         
-        // demo:"http://react-job-listing-website.codebucks27.vercel.app/",
+        demo:"https://www.linkedin.com/in/alizaaaja/details/experience/",
         // github:"https://github.com/codebucks27/react-job-listing-website"
         
     },

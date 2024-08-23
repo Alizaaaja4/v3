@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
-// import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
 
 const Box = styled(motion.a)`
-  width: calc(10rem + 15vw);
+  width: 16rem;
   text-decoration: none;
   height: 20rem;
   padding: 1rem;
@@ -17,11 +16,17 @@ const Box = styled(motion.a)`
   display: flex;
   flex-direction: column;
   z-index: 5;
+  overflow: hidden; /* Ensure content stays within the box */
 
   &:hover {
     color: ${(props) => props.theme.body};
     background-color: ${(props) => props.theme.text};
     transition: all 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    width: 14rem; /* Adjust width for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
   }
 `;
 
@@ -30,13 +35,18 @@ const Image = styled.div`
   width: 100%;
   height: 60%;
   background-size: cover;
+  background-position: center;
   border: 1px solid transparent;
-  background-position: center center;
 
   ${Box}:hover & {
     border: 1px solid ${(props) => props.theme.body};
   }
+
+  @media (max-width: 768px) {
+    height: 50%; /* Adjust the height for smaller screens */
+  }
 `;
+
 const Title = styled.h3`
   color: inherit;
   padding: 0.5rem 0;
@@ -49,12 +59,22 @@ const Title = styled.h3`
     border-bottom: 1px solid ${(props) => props.theme.body};
   }
 `;
+
 const HashTags = styled.div`
   padding: 0.5rem 0;
+  white-space: nowrap; /* Prevent tags from wrapping to the next line */
+  overflow: hidden; /* Hide overflow if the content is too long */
+  text-overflow: ellipsis; /* Show ellipsis if the content overflows */
+
+  @media (max-width: 768px) {
+    white-space: normal; /* Allow wrapping on smaller screens */
+  }
 `;
+
 const Tag = styled.span`
   padding-right: 0.5rem;
 `;
+
 const Date = styled.span`
   padding: 0.5rem 0;
 `;

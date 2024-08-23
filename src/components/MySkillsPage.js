@@ -11,20 +11,30 @@ import BigTitle from '../subComponents/BigTitlte'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
-width: 100vw;
+width: 85vw; 
 height: 100vh;
 position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+margin: auto;
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+    width: 95vw; 
+    margin-top: 4rem;
+}
 `
 
 const Main = styled.div`
 border: 2px solid ${props => props.theme.text};
 color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
-padding: 2rem;
-width: 30vw;
+padding: 1.2rem;
+width: 28vw; 
 height: 65vh;
 z-index: 3;
 line-height: 1.5;
@@ -34,6 +44,13 @@ font-family: 'Ubuntu Mono', monospace;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    width: 55vw; 
+    height: auto;
+    margin-bottom: 3rem;
+}
 
 &:hover {
     color: ${props => props.theme.body};
@@ -45,7 +62,7 @@ const Title = styled.h2`
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: calc(1em + 1vw);
+font-size: calc(0.8em + 0.8vw); /* Ukuran font lebih kecil */
 
 ${Main}:hover & {
     & > * {
@@ -60,7 +77,7 @@ ${Main}:hover & {
 
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.6em + 1vw);
+font-size: calc(0.5em + 0.8vw); /* Ukuran font lebih kecil */
 padding: 0.5rem 0;
 
 ${Main}:hover & {
@@ -74,6 +91,12 @@ strong {
 ul, p {
     margin-left: 2rem;
 }
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    font-size: calc(0.6em + 0.8vw); /* Ukuran font lebih kecil di layar kecil */
+    margin-left: 1rem;
+}
 `
 
 const MySkillsPage = () => {
@@ -86,7 +109,7 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>
-                        <Design width={40} height={40} /> Frontend Developer
+                        <Design width={30} height={30} /> Frontend Developer
                     </Title>
                     <Description>
                         As a Frontend Developer, I focus on creating engaging and responsive user interfaces. 
@@ -106,7 +129,7 @@ const MySkillsPage = () => {
                 </Main>
                 <Main>
                     <Title>
-                        <Develope width={40} height={40} /> Backend Developer
+                        <Develope width={30} height={30} /> Backend Developer
                     </Title>
                     <Description>
                         As a Backend Developer, I design and implement server-side logic and database interactions. 
@@ -120,7 +143,7 @@ const MySkillsPage = () => {
                     <Description>
                         <strong>Tools</strong>
                         <p>
-                            Docker, Kubernetes, MySQL, PostgreSQL, MongoDB, Apache Kafka, etc.
+                            Docker, Kubernetes, MySQL, PostgreSQL, MongoDB, Apache Kafka, dll.
                         </p>
                     </Description>
                 </Main>
